@@ -37,7 +37,7 @@ function upperCaseFirstLetters(input){
 function changeToInitials(input){
   const initials = [];
   for(let i = 0; i < input.length; i++){
-    initials.push(input[i].toUpperCase().charAt(0) + input[i].substring(input[i].indexOf(' ')).charAt(1));
+    initials.push(input[i].toUpperCase().charAt(0) + input[i].toUpperCase().substring(input[i].indexOf(' ')).charAt(1));
   }
   return initials;
 }
