@@ -46,7 +46,7 @@ function doubleOdd(input){
   const odd = [];
   for(let i = 0; i < input.length; i++){
     if(input[i] % 2 == 1 || input[i] % 2 == -1){
-    odd.push(input[i] *= 2)
+    odd.push(input[i] * 2)
     } else { 
       odd.push(input[i]);
     }
